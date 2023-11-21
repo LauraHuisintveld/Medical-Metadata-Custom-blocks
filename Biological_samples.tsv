@@ -4,7 +4,7 @@
 	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0	#VALUE	FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biologicalSamples	
 	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	elsstVarUri1	ELSST URI	The URI of the ELSST concept.	https://	url	3	<a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
+	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3	#VALUE	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	elsstVarLabel2	ELSST Preferred Term Name -2	The preferred term name of the ELSST concept.		text	4		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarUri2	ELSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	elsstVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the ELSST concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
