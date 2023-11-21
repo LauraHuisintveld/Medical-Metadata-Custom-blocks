@@ -8,6 +8,8 @@
 	biologicalSampleType	Biological Sample Type	The type of biological sample.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biologicalSamples	
 	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	subjectType	Human	S1	0												
+	subjectType	Animal	S2	1												
 	geneticOmicsType	Genomics	GO0	0												
 	geneticOmicsType	Metabolomics	GO1	1												
 	geneticOmicsType	Proteomics	GO2	2												
