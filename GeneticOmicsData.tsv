@@ -1,5 +1,5 @@
 #metadataBlock	name	dataverseAlias	displayName													
-	geneticOmics		Genetic / Omics Data												
+	geneticOmics		Genetic / Omics Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biologicalSamples	
 	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
