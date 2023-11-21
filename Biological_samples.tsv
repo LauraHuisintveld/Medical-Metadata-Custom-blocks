@@ -4,7 +4,7 @@
 	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biologicalSamples	
 	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3	#VALUE	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
+	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	biologicalSampleType	Biological Sample Type	The type of biological sample.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biologicalSamples	
 	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
