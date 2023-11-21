@@ -13,3 +13,5 @@
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
+	laboratoryData	Yes	L1	0												
+	laboratoryData	No	L2	1												
