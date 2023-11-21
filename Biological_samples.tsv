@@ -6,10 +6,7 @@
 	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3	#VALUE	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	biologicalSampleType	Biological Sample Type	The type of biological sample.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biologicalSamples	
-	elsstVarUri2	ELSST URI -2	The URI of the ELSST concept.	https://	url	5	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarLabel3	ELSST Preferred Term Name -3	The preferred term name of the ELSST concept.		text	6		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	elsstTerm	enrichments	
-	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
-	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
+	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
