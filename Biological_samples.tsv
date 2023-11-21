@@ -11,3 +11,5 @@
 	elsstVarUri3	ELSST URI -3	The URI of the ELSST concept.	https://	url	7	 <a href='#VALUE' target='_blank'>#VALUE</a>	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	elsstTerm	enrichments	
 	frequencyOfUse	Frequency of Use	The frequency of use of a data file among CBS RA projects.		text	10		FALSE	FALSE	FALSE	TRUE	FALSE	FALSE		enrichments	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	subjectType	Human	S1	0
+	subjectType	Animal	S2	1
