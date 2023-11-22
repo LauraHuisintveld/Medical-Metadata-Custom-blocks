@@ -6,7 +6,7 @@
 	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
 	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
 	questionnaireName	Questionnaire Name	The name of the questionnaire.		text	4		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
-	questionnaireVersion	Questionnaire Version Number	The version number of the questionnaire.		text	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData		
+	questionnaireVersion	Questionnaire Version Number	The version number of the questionnaire.		text	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
 	nameVideoInterview	Protocol Name Video Interview	Protocol Name Video Interview.		text	6	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
