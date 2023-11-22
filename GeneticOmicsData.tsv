@@ -5,7 +5,8 @@
 	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	geneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		geneticOmics		storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
+	geneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		geneticOmics	
+	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
