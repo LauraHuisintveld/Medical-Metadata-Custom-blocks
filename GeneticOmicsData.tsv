@@ -14,6 +14,6 @@
 	geneticOmicsType	Metabolomics	GO1	1												
 	geneticOmicsType	Proteomics	GO2	2												
 	geneticOmicsType	Transcriptomics	GO3	3												
-	geneticOmicsType	RNASeq	GO4	4											
+	geneticOmicsType	RNASeq	GO4	4												
 	primaryData	Yes	PD0	0												
 	primaryData	No	PD01	1												
