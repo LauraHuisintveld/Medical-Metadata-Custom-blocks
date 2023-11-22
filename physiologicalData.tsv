@@ -6,7 +6,7 @@
 	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
 	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
 	physiologicalSampleType	Physiological Data Type	The type of physiological Data.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		physiologicalData	
-	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
+	collectionMethod	Data Collection Method	The method used to collect the data.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
@@ -15,3 +15,6 @@
 	physiologicalSampleType	Physical data	PS0	0												
 	physiologicalSampleType	Biochemical data	PS1	1												
 	physiologicalSampleType	Machine readable biosignals	PS2	2												
+	collectionMethod	Self-measured	CM0	0												
+	collectionMethod	Measured by health care provider	CM1	1												
+	collectionMethod	Measured by someone else	CM2	2												
