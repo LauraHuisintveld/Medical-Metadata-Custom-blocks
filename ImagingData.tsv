@@ -1,20 +1,28 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	imagingData		Imaging Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biologicalSamples	
-	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	biologicalSampleType	Biological Sample Type	The type of biological sample.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biologicalSamples	
-	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
+	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		imagingData	
+	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
+	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
+	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		imagingData	
+	imagingType	Imaging Type	The type of image.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		imagingData	
+	imagingModality	Imaging Modality	The modality of the image.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		imagingData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
 	laboratoryData	Yes	L1	0												
 	laboratoryData	No	L2	1												
-	biologicalSampleType	DNA	BS1	0												
-	biologicalSampleType	RNA	BS2	1												
-	biologicalSampleType	Serum	BS3	2												
-	biologicalSampleType	Plasma	BS4	3												
-	biologicalSampleType	Urine	BS5	4												
-	biologicalSampleType	Faeces	BS6	5												
+	imagingType	Diagnostic imaging	IT0	0												
+	imagingType	 Interventional radiology	IT2	1												
+	imagingModality	X-Ray	IM0	0												
+	imagingModality	ECHO	IM1	1												
+	imagingModality	CT	IM2	2												
+	imagingModality	CTA	IM3	3												
+	imagingModality	MRI	IM4	4												
+	imagingModality	fMRI	IM5	5												
+	imagingModality	PET	IM6	6												
+	imagingModality	PET-CT	IM7	7												
+	imagingModality	PET-MRI	IM8	8												
+	imagingModality	SPECT	IM9	9												
+	imagingModality	CBCT	IM10	10												
+	imagingModality	Fluoroscopy	IM11	11												
