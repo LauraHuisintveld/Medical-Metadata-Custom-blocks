@@ -8,6 +8,8 @@
 	geneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	4		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		geneticOmics	
 	primaryData	Primary Data	Indicates if there is primary data or not.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
 	primaryDataLocation	Primary Data Location	The location of the primary data.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
+	secondaryData	Secondary Data	Indicates if there is secondary data or not.		text	7	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
+	secondaryDataLocation	Secondary Data Location	The location of the secondary data.		text	6		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
@@ -17,4 +19,6 @@
 	geneticOmicsType	Transcriptomics	GO3	3												
 	geneticOmicsType	RNASeq	GO4	4												
 	primaryData	Yes	PD0	0												
-	primaryData	No	PD01	1												
+	primaryData	No	PD1	1												
+	secondaryData	Yes	SD0	0												
+	secondaryData	No	SD1	1												
