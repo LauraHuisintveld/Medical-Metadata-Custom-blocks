@@ -8,6 +8,7 @@
 	imagingType	Imaging Type	The type of image.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		imagingData	
 	imagingModality	Imaging Modality	The modality of the image.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		imagingData	
 	imagingDescription	Imaging Description	A description of the images.		text	6	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
+	imagingDataLocation	Imaging Data Location	The location of the images.		text	7	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
