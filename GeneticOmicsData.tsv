@@ -1,12 +1,12 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	geneticOmics		Genetic / Omics Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biologicalSamples	
-	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
-	geneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		geneticOmics	
-	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		int	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
+	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		geneticOmics	
+	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
+	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
+	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
+	geneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	4		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		geneticOmics	
+	primaryData	Primary Data	Indicates if there is primary data or not.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		geneticOmics	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
@@ -14,9 +14,6 @@
 	geneticOmicsType	Metabolomics	GO1	1												
 	geneticOmicsType	Proteomics	GO2	2												
 	geneticOmicsType	Transcriptomics	GO3	3												
-	geneticOmicsType	RNASeq	BS1	GO4	4											
-	biologicalSampleType	RNA	BS2	1												
-	biologicalSampleType	Serum	BS3	2												
-	biologicalSampleType	Plasma	BS4	3												
-	biologicalSampleType	Urine	BS5	4												
-	biologicalSampleType	Faeces	BS6	5												
+	geneticOmicsType	RNASeq	GO4	4											
+	primaryData	Yes	PD0	0												
+	primaryData	No	PD01	1												
