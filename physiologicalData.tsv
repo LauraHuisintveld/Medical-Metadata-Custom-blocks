@@ -1,17 +1,9 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	physiologicalData		Physiological Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		physiologicalData	
-	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
-	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
-	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
 	physiologicalSampleType	Physiological Data Type	The type of physiological Data.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		physiologicalData	
 	collectionMethod	Data Collection Method	The method used to collect the data.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		physiologicalData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	subjectType	Human	S1	0												
-	subjectType	Animal	S2	1												
-	laboratoryData	Yes	L1	0												
-	laboratoryData	No	L2	1												
 	physiologicalSampleType	Physical data	PS0	0												
 	physiologicalSampleType	Biochemical data	PS1	1												
 	physiologicalSampleType	Machine readable biosignals	PS2	2												
