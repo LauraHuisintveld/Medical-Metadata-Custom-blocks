@@ -4,10 +4,6 @@
 	biologicalSampleType	Biological Sample Type	The type of biological sample.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biologicalSamples	
 	storageTemperature	Storage Temperature	The temperature of the storage in Celsius.		float	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	subjectType	Human	S1	0												
-	subjectType	Animal	S2	1												
-	laboratoryData	Yes	L1	0												
-	laboratoryData	No	L2	1												
 	biologicalSampleType	DNA	BS1	0												
 	biologicalSampleType	RNA	BS2	1												
 	biologicalSampleType	Serum	BS3	2												
