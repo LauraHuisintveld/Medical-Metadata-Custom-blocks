@@ -1,10 +1,6 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	imagingData		Imaging Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	subjectType	Subject Type	Indicates the type of subject, human or animal.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		imagingData	
-	numberOfSubjects	 Number of Subjects	The amount of subjects.		int	1		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
-	subjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
-	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	3		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		imagingData	
 	imagingType	Imaging Type	The type of image.		text	4		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		imagingData	
 	imagingModality	Imaging Modality	The modality of the image.		text	5	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		imagingData	
 	imagingDescription	Imaging Description	A description of the images.		textbox	6	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
