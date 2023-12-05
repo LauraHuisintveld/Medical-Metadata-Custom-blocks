@@ -5,7 +5,3 @@
 	questionnaireVersion	Questionnaire Version Number	The version number of the questionnaire.		text	5	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
 	nameVideoInterview	Protocol Name Video Interview	Protocol Name Video Interview.		text	6	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		QualitativeData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	subjectType	Human	S1	0												
-	subjectType	Animal	S2	1												
-	laboratoryData	Yes	L1	0												
-	laboratoryData	No	L2	1												
