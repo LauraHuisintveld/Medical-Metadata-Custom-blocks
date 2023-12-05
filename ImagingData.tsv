@@ -6,11 +6,6 @@
 	imagingDescription	Imaging Description	A description of the images.		textbox	6	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
 	imagingDataLocation	Imaging Data Location	The location of the images.		text	7	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		imagingData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	subjectType	Human	S1	0												
-	subjectType	Animal	S2	1												
-	laboratoryData	Yes	L1	0												
-	laboratoryData	No	L2	1												
-	imagingType	Diagnostic imaging	IT0	0												
 	imagingType	 Interventional radiology	IT2	1												
 	imagingModality	X-Ray	IM0	0												
 	imagingModality	ECHO	IM1	1												
