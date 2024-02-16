@@ -8,7 +8,7 @@
 	laboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	4		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	dataType	Biological samples		0												
-	dataType	Genetic / omiccs data		1											
+	dataType	Genetic / omiccs data		1												
 	dataType	Imaging data		2												
 	dataType	Qualitative data and quantitative questionnaires		3												
 	dataType	Physiological data		4												
