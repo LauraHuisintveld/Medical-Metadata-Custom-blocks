@@ -15,5 +15,7 @@
 	dataType	Synthetic data		5												
 	subjectType	Human	S1	0												
 	subjectType	Animal	S2	1												
+	subjectType	Organism	S3	2												
+	subjectType	Object	S4	3												
 	laboratoryData	Yes	L1	0												
 	laboratoryData	No	L2	1												
