@@ -1,0 +1,12 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	syntheticData		Synthetic Data													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	syntheticDataOrigin	Synthetic Data Origin	The origin of the synthetic data.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		syntheticData	
+	syntheticDataType	Synthetic Data Type	The type of synthetic data.		text	1	 	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		syntheticData	
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	syntheticDataOrigin	Algorithm data		0												
+	syntheticDataOrigin	Cloned data		1												
+	syntheticDataOrigin	Dummy data		2												
+	syntheticDataOrigin	Simulation data		3												
+ 	syntheticDataType	Fully synthetic		0												
+  syntheticDataType	Partially synthetic		1												
