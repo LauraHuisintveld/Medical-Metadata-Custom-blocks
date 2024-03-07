@@ -9,4 +9,4 @@
 	syntheticDataOrigin	Dummy data		2												
 	syntheticDataOrigin	Simulation data		3												
  	syntheticDataType	Fully synthetic		0												
-  syntheticDataType	Partially synthetic		1													
+	  syntheticDataType	Partially synthetic		1												
