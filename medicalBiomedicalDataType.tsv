@@ -1,0 +1,21 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	medicalBiomedicalDataType		Biomedical Data Type
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	medicalBiomedicalDataTypeDataType	Data Type	Type of generic biomedical data.		text	0		TRUE	TRUE	TRUE	TRUE	FALSE	TRUE
+	medicalBiomedicalDataTypeSubjectType	Subject Type	Indicates the type of subject, human or animal.		text	1		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		medicalBiomedicalDataType
+	medicalBiomedicalDataTypeNumberOfSubjects	 Number of Subjects	The amount of subjects.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		medicalBiomedicalDataType
+	medicalBiomedicalDataTypeSubjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		medicalBiomedicalDataType
+	medicalBiomedicalDataTypeLaboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	4		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		medicalBiomedicalDataType
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	medicalBiomedicalDataTypeDataType	Biological samples		0
+	medicalBiomedicalDataTypeDataType	Genetic / omiccs data		1
+	medicalBiomedicalDataTypeDataType	Imaging data		2
+	medicalBiomedicalDataTypeDataType	Qualitative data and quantitative questionnaires		3
+	medicalBiomedicalDataTypeDataType	Physiological data		4
+	medicalBiomedicalDataTypeDataType	Synthetic data		5
+	medicalBiomedicalDataTypeSubjectType	Human	S1	0
+	medicalBiomedicalDataTypeSubjectType	Animal	S2	1
+	medicalBiomedicalDataTypeSubjectType	Organism	S3	2
+	medicalBiomedicalDataTypeSubjectType	Object	S4	3
+	medicalBiomedicalDataTypeLaboratoryData	Yes	L1	0
+	medicalBiomedicalDataTypeLaboratoryData	No	L2	1
