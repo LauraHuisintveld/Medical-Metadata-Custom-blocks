@@ -1,7 +1,7 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	medicalImagingData		Imaging Data
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	medicalImagingDataType	Imaging Type	The type of image.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		imagingData
+	medicalImagingDataType	Imaging Type	The type of image.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		medicalImagingData
 	medicalImagingDataModality	Imaging Modality	The modality of the image.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		medicalImagingData
 	medicalImagingDataDescription	Imaging Description	A description of the images.		textbox	2	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		medicalImagingData
 	medicalImagingDataLocation	Imaging Data Location	The location of the images.		text	3	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		medicalImagingData
