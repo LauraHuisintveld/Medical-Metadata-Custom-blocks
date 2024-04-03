@@ -1,5 +1,5 @@
 #metadataBlock	name	dataverseAlias	displayName													
-	medicalBiomedicalDataType		Biomedical Data Type
+	medicalBiomedicalDataType		Biomedical Data Type													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	medicalBiomedicalDataTypeDataType	Data Type	Type of generic biomedical data.		text	0		TRUE	TRUE	TRUE	TRUE	FALSE	TRUE		medicalBiomedicalDataType
 	medicalBiomedicalDataTypeSubjectType	Subject Type	Indicates the type of subject, human or animal.		text	1		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		medicalBiomedicalDataType

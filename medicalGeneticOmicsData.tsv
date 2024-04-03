@@ -1,5 +1,5 @@
 #metadataBlock	name	dataverseAlias	displayName													
-	medicalGeneticOmics		Genetic / Omics Data
+	medicalGeneticOmics		Genetic / Omics Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	medicalGeneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		medicalGeneticOmics
 	medicalGeneticOmicsPrimaryData	Primary Data	Indicates if there is primary data or not.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		medicalGeneticOmics
