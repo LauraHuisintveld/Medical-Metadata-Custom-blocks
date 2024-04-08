@@ -1,0 +1,12 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	biomedicalPhysiologicalData		Biomedical Data Type - Physiological Data													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	biomedicalPhysiologicalDataType	Physiological Data Type	The type of physiological Data. Physical data: e.g., length, weight, heart rate, blood pressure, saturation. Biochemical data: e.g., drugs, bacterial cultures, protein levels. Machine readable biosignals: e.g., ECG, EEG.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biomedicalPhysiologicalData
+	biomedicalPhysiologicalDataCollectionMethod	Data Collection Method	The method used to collect the data.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalPhysiologicalData
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	biomedicalPhysiologicalDataType	Physical data	PS0	0
+	biomedicalPhysiologicalDataType	Biochemical data	PS1	1
+	biomedicalPhysiologicalDataType	Machine readable biosignals	PS2	2
+	biomedicalPhysiologicalDataCollectionMethod	Self-measured	CM0	0
+	biomedicalPhysiologicalDataCollectionMethod	Measured by health care provider	CM1	1
+	biomedicalPhysiologicalDataCollectionMethod	Measured by someone else	CM2	2

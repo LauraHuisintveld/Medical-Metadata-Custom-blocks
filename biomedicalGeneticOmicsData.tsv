@@ -1,0 +1,18 @@
+#metadataBlock	name	dataverseAlias	displayName													
+	biomedicalGeneticOmics		Biomedical Data Type - Genetic / Omics Data													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	biomedicalGeneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biomedicalGeneticOmics
+	biomedicalGeneticOmicsPrimaryData	Primary Data	Indicates if there is primary data or not.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics
+	biomedicalGeneticOmicsPrimaryDataLocation	Primary Data Location	The location of the primary data.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics
+	biomedicalGeneticOmicsSecondaryData	Secondary Data	Indicates if there is secondary data or not.		text	3	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics
+	biomedicalGeneticOmicsSecondaryDataLocation	Secondary Data Location	The location of the secondary data.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder												
+	biomedicalGeneticOmicsType	Genomics	GO0	0
+	biomedicalGeneticOmicsType	Metabolomics	GO1	1
+	biomedicalGeneticOmicsType	Proteomics	GO2	2
+	biomedicalGeneticOmicsType	Transcriptomics	GO3	3
+	biomedicalGeneticOmicsType	RNASeq	GO4	4
+	biomedicalGeneticOmicsPrimaryData	Yes	PD0	0
+	biomedicalGeneticOmicsPrimaryData	No	PD1	1
+	biomedicalGeneticOmicsSecondaryData	Yes	SD0	0
+	biomedicalGeneticOmicsSecondaryData	No	SD1	1
