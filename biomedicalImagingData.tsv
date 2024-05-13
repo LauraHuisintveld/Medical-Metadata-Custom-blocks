@@ -1,10 +1,10 @@
 #metadataBlock	name	dataverseAlias	displayName													
 	biomedicalImagingData		Biomedical Data Type - Imaging Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	biomedicalImagingDataType	Imaging Type	The type of image.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biomedicalImagingData
-	biomedicalImagingDataModality	Imaging Modality	The modality of the image.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData
-	biomedicalImagingDataDescription	Imaging Description	A description of the images.		textbox	2	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData
-	biomedicalImagingDataLocation	Imaging Data Location	The location of the images.		text	3	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData
+	biomedicalImagingDataType	Imaging Type	The type of image.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biomedicalImagingData	
+	biomedicalImagingDataModality	Imaging Modality	The modality of the image.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData	
+	biomedicalImagingDataDescription	Imaging Description	A description of the images.		textbox	2	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData	
+	biomedicalImagingDataLocation	Imaging Data Location	The location of the images.		text	3	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	biomedicalImagingDataType	Diagnostic imaging	IT1	0
 	biomedicalImagingDataType	Interventional radiology	IT2	1
