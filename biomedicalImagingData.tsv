@@ -12,7 +12,7 @@
 	biomedicalImagingDataModality	ECHO	IM1	1												
 	biomedicalImagingDataModality	CT	IM2	2												
 	biomedicalImagingDataModality	CTA	IM3	3												
-	biomedicalImagingDataModality	MRI	IM4	4													
+	biomedicalImagingDataModality	MRI	IM4	4												
 	biomedicalImagingDataModality	fMRI	IM5	5												
 	biomedicalImagingDataModality	PET	IM6	6												
 	biomedicalImagingDataModality	PET-CT	IM7	7												
