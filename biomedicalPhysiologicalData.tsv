@@ -8,5 +8,5 @@
 	biomedicalPhysiologicalDataType	Biochemical data	PS1	1												
 	biomedicalPhysiologicalDataType	Machine readable biosignals	PS2	2												
 	biomedicalPhysiologicalDataCollectionMethod	Self-measured	CM0	0												
-	biomedicalPhysiologicalDataCollectionMethod	Measured by health care provider	CM1	1													
+	biomedicalPhysiologicalDataCollectionMethod	Measured by health care provider	CM1	1												
 	biomedicalPhysiologicalDataCollectionMethod	Measured by someone else	CM2	2												
