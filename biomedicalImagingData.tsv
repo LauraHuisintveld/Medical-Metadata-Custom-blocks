@@ -6,17 +6,17 @@
 	biomedicalImagingDataDescription	Imaging Description	A description of the images.		textbox	2	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData	
 	biomedicalImagingDataLocation	Imaging Data Location	The location of the images.		text	3	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalImagingData	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	biomedicalImagingDataType	Diagnostic imaging	IT1	0
-	biomedicalImagingDataType	Interventional radiology	IT2	1
-	biomedicalImagingDataModality	X-Ray	IM0	0
-	biomedicalImagingDataModality	ECHO	IM1	1
-	biomedicalImagingDataModality	CT	IM2	2
-	biomedicalImagingDataModality	CTA	IM3	3
-	biomedicalImagingDataModality	MRI	IM4	4
-	biomedicalImagingDataModality	fMRI	IM5	5
-	biomedicalImagingDataModality	PET	IM6	6
-	biomedicalImagingDataModality	PET-CT	IM7	7
-	biomedicalImagingDataModality	PET-MRI	IM8	8
-	biomedicalImagingDataModality	SPECT	IM9	9
-	biomedicalImagingDataModality	CBCT	IM10	10
-	biomedicalImagingDataModality	Fluoroscopy	IM11	11
+	biomedicalImagingDataType	Diagnostic imaging	IT1	0												
+	biomedicalImagingDataType	Interventional radiology	IT2	1												
+	biomedicalImagingDataModality	X-Ray	IM0	0												
+	biomedicalImagingDataModality	ECHO	IM1	1												
+	biomedicalImagingDataModality	CT	IM2	2												
+	biomedicalImagingDataModality	CTA	IM3	3												
+	biomedicalImagingDataModality	MRI	IM4	4													
+	biomedicalImagingDataModality	fMRI	IM5	5												
+	biomedicalImagingDataModality	PET	IM6	6												
+	biomedicalImagingDataModality	PET-CT	IM7	7												
+	biomedicalImagingDataModality	PET-MRI	IM8	8												
+	biomedicalImagingDataModality	SPECT	IM9	9												
+	biomedicalImagingDataModality	CBCT	IM10	10												
+	biomedicalImagingDataModality	Fluoroscopy	IM11	11												
