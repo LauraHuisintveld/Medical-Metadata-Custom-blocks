@@ -8,7 +8,7 @@
 	biomedicalBiomedicalDataTypeLaboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	4		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalBiomedicalDataType
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	biomedicalBiomedicalDataTypeDataType	Biological samples		0
-	biomedicalBiomedicalDataTypeDataType	Genetic / omiccs data		1
+	biomedicalBiomedicalDataTypeDataType	Genetic / omics data		1
 	biomedicalBiomedicalDataTypeDataType	Imaging data		2
 	biomedicalBiomedicalDataTypeDataType	Qualitative data and quantitative questionnaires		3
 	biomedicalBiomedicalDataTypeDataType	Physiological data		4
