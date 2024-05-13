@@ -7,12 +7,12 @@
 	biomedicalGeneticOmicsSecondaryData	Secondary Data	Indicates if there is secondary data or not.		text	3	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
 	biomedicalGeneticOmicsSecondaryDataLocation	Secondary Data Location	The location of the secondary data.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
-	biomedicalGeneticOmicsType	Genomics	GO0	0
-	biomedicalGeneticOmicsType	Metabolomics	GO1	1
-	biomedicalGeneticOmicsType	Proteomics	GO2	2
-	biomedicalGeneticOmicsType	Transcriptomics	GO3	3
-	biomedicalGeneticOmicsType	RNASeq	GO4	4
-	biomedicalGeneticOmicsPrimaryData	Yes	PD0	0
-	biomedicalGeneticOmicsPrimaryData	No	PD1	1
-	biomedicalGeneticOmicsSecondaryData	Yes	SD0	0
-	biomedicalGeneticOmicsSecondaryData	No	SD1	1
+	biomedicalGeneticOmicsType	Genomics	GO0	0												
+	biomedicalGeneticOmicsType	Metabolomics	GO1	1												
+	biomedicalGeneticOmicsType	Proteomics	GO2	2												
+	biomedicalGeneticOmicsType	Transcriptomics	GO3	3												
+	biomedicalGeneticOmicsType	RNASeq	GO4	4												
+	biomedicalGeneticOmicsPrimaryData	Yes	PD0	0												
+	biomedicalGeneticOmicsPrimaryData	No	PD1	1												
+	biomedicalGeneticOmicsSecondaryData	Yes	SD0	0												
+	biomedicalGeneticOmicsSecondaryData	No	SD1	1												
