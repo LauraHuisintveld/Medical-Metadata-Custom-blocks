@@ -2,7 +2,9 @@
 	biomedicalBiologicalSamples		Biomedical Data Type - Biological samples metadata													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	biomedicalBiologicalSampleType	Biological Sample Type	The type of biological sample.		text	0		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		biomedicalBiologicalSamples	
-	biomedicalBiologicalSampleStorageTemperature	Storage Temperature	The temperature of the storage.		text	1	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalBiologicalSamples	
+	biomedicalBiologicalSampleStorageTemperature	Storage Temperature	The temperature of the storage.		none	1	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalBiologicalSamples	
+	biomedicalBiologicalSampleStorageTemperatureValue	Value	The temperature of the storage, numeric value.		text	2	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	biomedicalBiologicalSampleStorageTemperature	biomedicalBiologicalSamples	
+	biomedicalBiologicalSampleStorageTemperaturemeasurementUnit	Measurement Unit	The measurement unit of the temperature, for example 'Celsius' or 'Fahrenheit'.		text	3	 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	biomedicalBiologicalSampleStorageTemperature	biomedicalBiologicalSamples	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	biomedicalBiologicalSampleType	DNA	BS1	0												
 	biomedicalBiologicalSampleType	RNA	BS2	1												
