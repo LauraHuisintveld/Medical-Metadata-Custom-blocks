@@ -3,10 +3,10 @@
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	biomedicalBiomedicalDataTypeDataType	Data Type	Type of generic biomedical data.		text	0		TRUE	TRUE	TRUE	TRUE	FALSE	TRUE		biomedicalBiomedicalDataType	
 	biomedicalBiomedicalDataTypeSubject	Subject	This field contains information about the subject.		none	1		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		biomedicalBiomedicalDataType	
-	biomedicalBiomedicalDataTypeSubjectType	Subject Type	Indicates the type of subject, human or animal.		text	1		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
-	biomedicalBiomedicalDataTypeNumberOfSubjects	 Number of Subjects	The amount of subjects.		int	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
-	biomedicalBiomedicalDataTypeSubjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
-	biomedicalBiomedicalDataTypeLaboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	4		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
+	biomedicalBiomedicalDataTypeSubjectType	Subject Type	Indicates the type of subject, human or animal.		text	2		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
+	biomedicalBiomedicalDataTypeNumberOfSubjects	 Number of Subjects	The amount of subjects.		int	3		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
+	biomedicalBiomedicalDataTypeSubjectHealthCondition	Subject Health Condition	The health condition of the subject.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
+	biomedicalBiomedicalDataTypeLaboratoryData	Laboratory Data	Indicates if the data is from a laboratory.		text	5		FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	biomedicalBiomedicalDataTypeSubject	biomedicalBiomedicalDataType	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	biomedicalBiomedicalDataTypeDataType	Biological samples		0												
 	biomedicalBiomedicalDataTypeDataType	Genetic / omics data		1												
