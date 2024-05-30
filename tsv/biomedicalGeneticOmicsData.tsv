@@ -2,9 +2,9 @@
 	biomedicalGeneticOmics		Biomedical Data Type - Genetic / Omics Data													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
 	biomedicalGeneticOmicsType	Genetic / Omics Data Type	Indicates the data type.		text	0		FALSE	TRUE	TRUE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
-	biomedicalGeneticOmicsPrimaryData	Primary Data	Indicates if there is primary data or not.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
+	biomedicalGeneticOmicsPrimaryData	Primary Data	Indicates if there is primary data or not. Primary data is the raw experimental data generated directly from sequencing experiments or other molecular biology techniques.		text	1	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
 	biomedicalGeneticOmicsPrimaryDataLocation	Primary Data Location	The location of the primary data.		text	2		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
-	biomedicalGeneticOmicsSecondaryData	Secondary Data	Indicates if there is secondary data or not.		text	3	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
+	biomedicalGeneticOmicsSecondaryData	Secondary Data	Indicates if there is secondary data or not. Secondary data is the data derived from analyzing and interpreting the primary data.		text	3	 	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
 	biomedicalGeneticOmicsSecondaryDataLocation	Secondary Data Location	The location of the secondary data.		text	4		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		biomedicalGeneticOmics	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	biomedicalGeneticOmicsType	Genomics	GO0	0												
